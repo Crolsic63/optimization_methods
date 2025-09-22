@@ -1,3 +1,4 @@
+# Золотое сечение
 import math
 
 def f(x):
