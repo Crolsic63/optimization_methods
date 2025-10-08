@@ -16,7 +16,7 @@ def fibonacci_search():
     F_n_plus_2 = 1
     while F_n_plus_2 < (b - a) / epsilon:
         n += 1
-        F_n_plus_2 = fibonacci(n + 2)
+        F_n_plus_2 = fibonacci(n + 3)
     
     # Вычисляем числа Фибоначчи для n итераций
     F_n = fibonacci(n)
